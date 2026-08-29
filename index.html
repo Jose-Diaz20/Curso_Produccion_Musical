@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Producción Musical — Mi carrera</title>
+  <meta name="description" content="Plataforma personal de seguimiento de la carrera autodidacta de Producción Musical." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        Producción Musical
+      </a>
+      <span class="student-tag">Estudiante · Jose Q</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Vista general de carrera</p>
+      <h1>Producción Musical</h1>
+      <p class="lead">
+        Carrera autodidacta armada a tu ritmo: 2 horas por semana, en un solo bloque,
+        combinando video, notas técnicas y práctica directa en tu propio estudio.
+      </p>
+
+      <div class="career-meter">
+        <span class="meter-label">Progreso general</span>
+        <div class="vu" id="overall-vu"></div>
+        <span class="meter-pct" id="overall-pct">0%</span>
+      </div>
+      <p class="notes-save-state" id="overall-steps" style="margin-top:10px;"></p>
+    </section>
+
+    <div class="controls">
+      <input class="search-input" id="search" type="text" placeholder="Buscar curso por nombre..." />
+    </div>
+
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      Producción Musical · Plataforma personal · El progreso se guarda en este navegador
+    </div>
+  </footer>
+
+  <script src="js/courses-data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
