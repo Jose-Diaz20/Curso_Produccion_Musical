@@ -6,14 +6,7 @@ notas técnicas y recursos, todo con progreso guardado en tu propio navegador.
 
 ## Vinculo del Curso
 
-1. Crea un repositorio nuevo en GitHub (público), por ejemplo `produccion-musical`.
-2. Sube **todo el contenido de esta carpeta** tal cual (no la carpeta contenedora, su contenido)
-   a la raíz del repositorio: `index.html`, `course.html`, `README.md`, `css/`, `js/`.
-3. En el repositorio: **Settings → Pages → Source** → selecciona la rama `main` y la carpeta `/ (root)`.
-4. Guarda. GitHub te da una URL como `https://tu-usuario.github.io/produccion-musical/`.
-5. Ábrela — ya tienes tu carrera en línea, siempre disponible.
-
-No necesitas build, ni Node, ni nada más: son archivos HTML/CSS/JS planos.
+https://jose-diaz20.github.io/Curso_Produccion_Musical/
 
 ## Cómo funciona el progreso
 
