@@ -4,7 +4,7 @@ Sitio estático (sin backend) que muestra tu carrera autodidacta de Producción 
 una vista de curso al estilo campus virtual: tarjetas por curso, checklist de avance,
 notas técnicas y recursos, todo con progreso guardado en tu propio navegador.
 
-## Cómo subirlo a GitHub Pages
+## Vinculo del Curso
 
 1. Crea un repositorio nuevo en GitHub (público), por ejemplo `produccion-musical`.
 2. Sube **todo el contenido de esta carpeta** tal cual (no la carpeta contenedora, su contenido)
